@@ -1,0 +1,213 @@
+﻿@import url("layout.css");
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-color: #034679;
+	background-image: url("../images/carrito.png");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+#container {
+	width: 80%;
+	margin: 10px auto;
+	text-align:center;
+}
+#containerhead {
+	width: 99%;
+	margin: 10px auto;
+	background-color:#ffca40;
+	text-align:center;
+}
+
+#masthead {
+	text-align: center;
+	width: 99%;
+	margin:auto;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #ff3500;
+}
+#navigation {
+	position: relative;
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #ffb800;
+}
+#content {
+	float: left;
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #fff;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 99%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #fefeff;
+}
+/* Masthead Styles */
+#masthead h1 {
+	color: white;
+}
+#masthead h3 {
+	color: white;
+}
+/* Navigation Styles */
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #fff;
+	background-color: transparent;
+}
+#navigation a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 25px;
+	border: 0px solid #fff;
+	background-color: transparent;
+}
+#navigation a:hover {
+	color: black;
+	font-weight:bold;
+	text-decoration: none;
+	border: 1px solid #5f8ea9;
+	background-color: #ff8900;
+}
+/* Content Styles */
+#content h1,h2,h3,h4,h5,h6 {
+	color: black;
+}
+#content img {
+	padding: 5px;
+	border: 1px solid #808080;
+}
+/* Footer Styles */
+#footer p {
+	color: #808080;
+	margin-top: 5px;
+}
+#footer a {
+	color: #5f8ea9;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #33627d;
+	text-decoration: none;
+}
+a {
+	color: #5f8ea9;
+	text-decoration: underline;
+}
+a:hover {
+	color: #33627d;
+	text-decoration: underline;
+}
+textarea {
+    resize: none;
+}
+#col0 {
+	position: relative;
+	float: left;
+	width: 25%;	
+}
+#col1 {
+	float: left;
+	width: 45%;
+}
+#col2 {
+	float: left;
+	width: 25%;
+}
+input[type=submit] {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 105px; height: 34px;
+}
+input[name=buscar]{
+	background-color: gray;
+}
+input[name=limpiar]{
+	background-color: olive;
+	height: 30px;
+}
+input[name=borrar]{
+	background-color: red;
+}
+input[name=actualizar]{
+	background-color: #0CB7DD;
+} 
+p{
+	text-align:center;
+}
+p.monto{
+	text-align: right;	
+}
+p.izq{
+	text-align: left;	
+}
+
+p.botton{
+	text-align: left;
+}
+table {
+   width: 100%;
+   /*border: 1px solid #000;*/
+   border-collapse: collapse;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   caption-side: bottom;
+}
+caption {
+	padding: 0.3em;
+	color: #fff;
+	background: #000;
+	position: sticky; top: 0; 
+}
+/* Fix table head */
+.tableFixHead    { overflow-y: auto; height: 100px; }
+.tableFixHead th { position: sticky; top: 0; }
+
+/* Just common table stuff. */
+th, td { padding: 8px 16px; }
+th     { background:#eee; }

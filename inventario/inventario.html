@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "../master.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Inventario</title>
+<!-- #EndEditable -->
+<link href="../styles/style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- Begin Container -->
+<div id="container">
+	<!-- Begin Masthead -->
+	<div id="masthead">
+		<h1><img src="../images/ozzo.png" alt="" height="44" width="86" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tiendas OZZO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="../images/ozzo.png" alt="" height="44" width="86" /></h1>
+		<h3>Tienda de conveniencia</h3>
+	</div>
+	<!-- End Masthead -->
+	<!-- Begin Navigation -->
+	<div id="navigation">
+		<ul>
+			<li><a href="../ventas.html">Ventas</a></li>
+			<li><a href="inventario.html">Inventario</a></li>
+			<li><a href="../proveedores/proveedores.html">Proveedores</a></li>
+			<li><a href="../usuarios/usuarios.html">Usuarios</a></li>
+			<li><a href="../reportes/reportes.html">Reportes</a></li>
+		</ul>
+	</div>
+	<!-- End Navigation -->
+	<!-- Begin Content -->
+	<div id="content">
+		<!-- #BeginEditable "content" -->
+		<form method="post">
+			<h2>Inventario</h2>
+			<p>Buscar: <input name="Text1" type="text" placeholder: "Nombre del artículo"/></p>
+		     <div class="tableFixHead" style="height: 185px">
+		     <table style="width:100%">
+            <caption>Inventario</caption>
+            <thead> 
+            <tr>
+			    <th>ID</th>
+			    <th>Nombre</th>
+			    <th>Precio Venta</th>
+			    <th>Precio Compra</th>
+			    <th>Disponibles</th>
+			    <th>Proveedor</th>
+			  </tr>
+			 </thead>
+			 <tbody>
+			 <tr>
+			    <td>COCA600</td>
+			    <td>Coca Cola 600ml</td>
+			    <td>15.50</td>
+			    <td>12.80</td>
+			    <td>16</td>
+			    <td>Coca Cola</td>
+			  </tr>
+			  <tr>
+			    <td>MAZAPANCHOC</td>
+			    <td>Mazapán de chocolate</td>
+			    <td>3.00</td>
+			    <td>1.20</td>
+			    <td>6</td>
+			    <td>De la Rosa</td> 
+			  <tr>
+			    <td>MARG250</td>
+			    <td>Margarina 250g</td>
+			    <td>20.00</td>
+			    <td>16.20</td>
+			    <td>6</td>
+			    <td>Primavera</td>
+			  </tr>
+
+			  </tr></tbody>
+			  
+			</table></div>
+		    <p>
+			<input name="limpiar" style="width: 410px; height: 34px;" type="submit" value="Agregar mercancía"/></p>
+			<p>&nbsp;<input type="submit" id="enviar" value="Registrar artículo" style="width: 128px"/>&nbsp;&nbsp;
+			<input name="actualizar" style="width: 128px; height: 34px;" type="submit" value="Actualizar Artículo"/>&nbsp;&nbsp;
+			<input name="borrar" style="width: 128px; height: 34px;" type="submit" value="Borrar Artículo"/></p>
+            &nbsp;<hr/>
+        	&nbsp;		
+		<!-- #EndEditable "content" --></div>
+	<!-- End Content -->
+	<!-- Begin Footer -->
+	<div id="footer">
+		<p><a href="../ventas.html">Ventas</a> | 
+		<a href="inventario.html">Inventario</a> 
+		| <a href="../proveedores/proveedores.html">Proveedores</a> | 
+		<a href="../usuarios/usuarios.html">
+		Usuarios</a> | <a href="../reportes/reportes.html">Reportes</a> |
+		<a href="../links/links.html">Links</a> |
+		<a href="../faq/faq.html">FAQ</a> | <a href="../contact/default.html">Contact</a></p>
+	</div>
+	<!-- End Footer --></div>
+<!-- End Container -->
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
